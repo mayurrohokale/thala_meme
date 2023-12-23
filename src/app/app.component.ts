@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'thala';
   count = 0;
   isVideoPlay : any;
-
+  head = false;
   Enterstring:any;
   constructor(){
 
@@ -20,11 +20,16 @@ export class AppComponent {
   {
     this.isVideoPlay = true;
   }
-  else
+  else if (this.count !=7)
   {
-    this.isVideoPlay = false;
+    this.head = true;
     
   }
+  else 
+  {
+    this.isVideoPlay = false;
+  }
+ 
   console.log(this.count);
   }
 }

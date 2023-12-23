@@ -1,26 +1,28 @@
 
-  
-<h1 class="header1">In this Universe, there is always is Reason!</h1>
+
+    <h1 class="header1">In this Universe, there is always is Reason!</h1>
 
 <div class="input-field">
   <input type="text" [(ngModel)]="Enterstring" placeholder="    what is your name?">
 </div>
 
-<div >
+<div class="video-container">
   <video *ngIf="isVideoPlay" class="video" autoplay muted loop>
     <source src="../assets/3b37a044.mp4" type="video/mp4">
   </video>
-  <h1 *ngIf="!isVideoPlay" class="header2">no, thala for reason</h1>
+  <h1 *ngIf="head" class="header2">no, thala for reason</h1>
 </div>
 
 
 
 <div class="submit-container">
-  <button (click)="counts()">Submit</button>
+  <button (click)="counts()" class="glow-on-hover">Submit</button>
 </div>
  
 
 
 
 
-<router-outlet></router-outlet>
+
+
+
