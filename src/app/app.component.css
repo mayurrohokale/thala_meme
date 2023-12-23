@@ -1,0 +1,28 @@
+.header1 {
+    text-align: center;
+    height: auto;
+}
+.header2 {
+  text-align: center;
+  height: auto;
+}
+.input-field {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+input {
+    width: 35%;
+    height: 7%;
+    border-radius: 9px;
+    box-shadow: 2px 2px 2px;
+    border: none;
+ 
+}
+
+button {
+    width: 20%;
+  margin-left: 40%;
+  margin-right: 30%;
+}
